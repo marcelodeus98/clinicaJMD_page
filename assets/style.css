@@ -284,3 +284,24 @@ footer .footer{
     color:#4682B4;
     padding: 1rem;
 }
+
+@media screen and (min-width: 320px){
+    .content{
+        height:auto;
+    }
+}
+
+@media screen and (min-width: 576px){
+    .content{
+        height:auto;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .content{
+        max-width: 992px;
+        height:auto;
+        border-radius: 1rem;
+        margin: 1rem auto;
+    }
+}
